@@ -1,3 +1,7 @@
+import java.io.*;
+import java.util.*;
+import java.util.Scanner;
+
 public class Backspace_String {
     public static boolean Backspace(String s, String t) {
         StringBuilder sb1 = new StringBuilder();
@@ -25,7 +29,7 @@ public class Backspace_String {
         }
 
         s = sb1.toString();
-        t = sb2.toString();
+        t = sb2.toString(); 
 
         System.out.println(s);
         System.out.println(t);
