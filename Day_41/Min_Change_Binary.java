@@ -1,4 +1,4 @@
-public class Min_Change_Binary {
+ipublic class Min_Change_Binary {
 	public static int MinOp(String s) {
 		int n = s.length();
 		int start_with_0 = 0; // 0101010...
@@ -24,7 +24,7 @@ public class Min_Change_Binary {
 
 	public static void main(String[] args) {
 		String s = "1111";
-		int ans = MinOp(s);
-		System.out.println(ans);
+		int res = MinOp(s);
+		System.out.println(res);
 	}
 }
